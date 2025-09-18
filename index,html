@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism Dashboard</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add a link to your Google Font if desired -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="logo">
+        <h2>Tourism Dashboard</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Bookings</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+      <header>
+        <h1>Welcome to the Tourism Dashboard</h1>
+        <div class="date-time">
+          <p id="date"></p>
+        </div>
+      </header>
+
+      <!-- Tourist Stats Section -->
+      <div class="stats">
+        <div class="stat-card">
+          <h3>Total Visitors</h3>
+          <p>1,245</p>
+        </div>
+        <div class="stat-card">
+          <h3>Total Bookings</h3>
+          <p>560</p>
+        </div>
+        <div class="stat-card">
+          <h3>Total Revenue</h3>
+          <p>$250,000</p>
+        </div>
+      </div>
+
+      <!-- Latest Reviews -->
+      <section class="latest-reviews">
+        <h2>Latest Reviews</h2>
+        <ul>
+          <li>
+            <p><strong>John Doe</strong>: "Amazing experience, will visit again!"</p>
+          </li>
+          <li>
+            <p><strong>Jane Smith</strong>: "Had a fantastic time. Highly recommended!"</p>
+          </li>
+          <li>
+            <p><strong>Mark Johnson</strong>: "Great service and friendly staff!"</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Tourist Destination Overview -->
+      <section class="destination-overview">
+        <h2>Top Tourist Destinations</h2>
+        <div class="destination-cards">
+          <d
